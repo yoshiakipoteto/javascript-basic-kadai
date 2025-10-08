@@ -1,4 +1,4 @@
-let num = Math.floor(Math.random() * 16);
+let num = Math.floor(Math.random() * 15+1);
 
 console.log(num);
 
@@ -16,4 +16,5 @@ else if (num % 5 == 0) {
 
 else {
     console.log(num);
+
 }
